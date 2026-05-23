@@ -1,0 +1,518 @@
+---
+---
+
+@charset "utf-8";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* ==========================================================================
+   Software Studies Carbon refinements
+   ========================================================================== */
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: $background-color;
+}
+
+/* Keep the top navigation from feeling like a separate black strip */
+.masthead,
+.greedy-nav {
+  background-color: $background-color;
+  border-bottom-color: $border-color;
+}
+
+.greedy-nav .visible-links a {
+  color: $masthead-link-color;
+
+  &:hover {
+    color: $masthead-link-color-hover;
+  }
+}
+
+/* Make long-form reading feel intentional */
+.page__content {
+  color: $text-color;
+
+  p,
+  li {
+    font-weight: 400;
+    line-height: 1.72;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $header-font-family;
+    color: $text-color;
+    letter-spacing: -0.015em;
+  }
+
+  h2,
+  h3 {
+    border-bottom-color: $border-color;
+  }
+
+  a {
+    color: $link-color;
+
+    &:hover,
+    &:focus {
+      color: $link-color-hover;
+    }
+  }
+}
+
+/* Archive cards and project/category cards */
+.archive__item {
+  background-color: #1a1713;
+  border-color: $border-color;
+
+  &:hover {
+    background-color: #221d18;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+  }
+}
+
+.archive__item-title {
+  font-family: $header-font-family;
+}
+
+.archive__item-excerpt,
+.archive__item-meta {
+  color: $muted-text-color;
+}
+
+/* Sidebar author profile */
+.author__name {
+  font-family: $header-font-family;
+  color: $text-color;
+}
+
+.author__bio,
+.author__urls-wrapper {
+  color: $muted-text-color;
+}
+
+/* Table of contents */
+.toc {
+  background-color: #1a1713;
+  border-color: $border-color;
+}
+
+.toc .nav__title {
+  background-color: #342d25;
+  color: #f3eee6;
+}
+
+.toc__menu {
+  background-color: #1a1713;
+
+  a {
+    color: $muted-text-color;
+
+    &:hover {
+      color: $text-color;
+      border-left-color: $primary-color;
+    }
+  }
+}
+
+/* Code and inline technical notes */
+code,
+kbd,
+samp,
+pre {
+  font-family: $monospace;
+}
+
+.highlighter-rouge,
+div.highlighter-rouge {
+  background-color: #1a1713;
+}
+
+
+/* ==========================================================================
+   Software Studies Carbon refinements -- end
+   ========================================================================== */
+
+
+/* Global link style: Remove underlines from all links */
+a {
+  text-decoration: none !important;
+  
+  &:hover,
+  &:focus {
+    text-decoration: none !important;
+  }
+}
+
+/* Screen-reader-only utility: visually hidden, accessible to ATs and SEO */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+// Custom Homepage Styles
+.intro-section {
+  padding: 2em 0;
+  border-bottom: 0px solid $border-color;
+  margin-bottom: 3em;
+  
+  h2 {
+    margin-bottom: 0.5em;
+  }
+  
+  p {
+    font-size: 1.125em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.categories-showcase {
+  margin-bottom: 3em;
+  
+  .category-section {
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    border-bottom: 0px solid $border-color;
+    
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  
+  .category-title {
+    margin-bottom: 0.75em;
+    border-bottom: 2px solid $primary-color;
+    padding-bottom: 0.5em;
+    
+    a {
+      text-decoration: none;
+      color: inherit;
+      
+      &:hover {
+        color: $link-color;
+      }
+    }
+  }
+  
+  // New styles for category descriptions with intro styling
+.category-description-intro-content {
+  margin: 0.5em 0 2em 0;
+  
+  p {
+    font-size: 1.125em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+}
+  
+  .archive__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    margin-bottom: 1.5em;
+  }
+  
+  .archive__item {
+    border: 1px solid $border-color;
+    padding: 1.5em;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease;
+    background-color: #1a1713;
+    
+    &:hover {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+  }
+  
+  .archive__item-title {
+    margin-top: 0;
+    font-size: 1.125em;
+  }
+  
+  .archive__item-excerpt {
+    margin: 0.5em 0;
+    font-size: 0.875em;
+    //color: mix(#000, $text-color, 25%);
+    color: $muted-text-color;
+  }
+  
+  .archive__item-meta {
+    font-size: 0.75em;
+    color: $muted-text-color;
+  }
+  
+  .category-more {
+    text-align: right;
+    font-weight: 600;
+    
+    a {
+      color: $link-color;
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// No bullet list style
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
+  
+  li {
+      padding: 0; /* tighten vertical spacing */
+      margin-top: 0.25rem;
+      margin-bottom: 0.25rem;
+      margin-left: 0.75rem; /* match resource page list indentation */
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+}
+
+// No bullet list style
+.no-bullets-philosophy {
+  list-style-type: none;
+  padding-left: 0;
+  
+  li {
+      padding: 0; /* tighten vertical spacing */
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      margin-left: 1.75rem; /* match resource page list indentation */
+      font-weight: 300; /* lighter weight to match body text */
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+}
+
+// No bullet list style
+.no-bullets-resume {
+  list-style-type: none;
+  padding-left: 0;
+  
+  li {
+      padding: 0; /* tighten vertical spacing */
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      margin-left: 1.75rem; /* match resource page list indentation */
+      font-weight: 300; /* lighter weight to match body text */
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+}
+
+// bullet list style
+.bullets-resume {
+  padding-left: 0;
+  
+  li {
+      padding: 0; /* tighten vertical spacing */
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      margin-left: 1.75rem; /* match resource page list indentation */
+      font-weight: 300; /* lighter weight to match body text */
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+}
+
+// About page - lighter body text
+.page__content {
+  p {
+    font-weight: 300;
+  }
+}
+
+// Dark mode support (if using)
+.dark {
+  .category-description {
+    background-color: mix(#000, $primary-color, 85%);
+    
+    p {
+      color: $text-color;
+    }
+  }
+  
+  .archive__item {
+    //background-color: mix(#000, #fff, 95%);
+    background-color: #16181a;
+    border: 1px solid $border-color;
+  }
+}
+
+// Responsive adjustments
+@include breakpoint($small) {
+  .archive__list {
+    grid-template-columns: 1fr;
+  }
+  
+  .category-description {
+    padding: 0.75em 1em;
+    
+    p {
+      font-size: 0.9em;
+    }
+  }
+}
+
+@include breakpoint($medium) {
+  .archive__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@include breakpoint($large) {
+  .archive__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+// TOC adjustments
+.layout--home-custom {
+  .sidebar__right {
+    @include breakpoint($large) {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 200px;
+      margin-right: -200px;
+      padding-left: 1em;
+      z-index: 10;
+      
+      &.sticky {
+        @include clearfix();
+        position: -webkit-sticky;
+        position: sticky;
+        top: 2em;
+        float: right;
+      }
+    }
+    
+    @include breakpoint($x-large) {
+      width: 300px;
+      margin-right: -300px;
+    }
+  }
+  
+  .toc__menu {
+    font-size: 0.85em;
+    
+    a {
+      display: block;
+      padding: 0.25rem 0.75rem;
+      color: $muted-text-color;
+      font-weight: normal;
+      line-height: 1.5;
+      border-left: 2px solid transparent;
+      
+      &:hover {
+        color: $text-color;
+        border-left-color: $primary-color;
+      }
+    }
+    
+    .active {
+      color: $text-color;
+      font-weight: bold;
+      border-left-color: $primary-color;
+    }
+  }
+}
+
+/* ==========================================================================
+   Social icon color fixes for dark theme
+   ========================================================================== */
+
+.author__urls,
+.page__footer-follow,
+.social-icons {
+  .fa-github,
+  .fa-linkedin,
+  .fa-youtube,
+  .bi-substack,
+  .fa-rss-square {
+    color: $muted-text-color;
+  }
+
+  a:hover,
+  a:focus {
+    .fa-github,
+    .fa-linkedin,
+    .fa-youtube,
+    .bi-substack,
+    .fa-rss-square {
+      color: $link-color;
+    }
+  }
+}
+
+/* ==========================================================================
+   Footer copyright link fixes for dark theme
+   ========================================================================== */
+
+.page__footer-copyright {
+  color: $muted-text-color;
+
+  a {
+    color: $muted-text-color;
+    text-decoration: none;
+
+    &:visited {
+      color: $muted-text-color;
+    }
+
+    &:hover,
+    &:focus {
+      color: $link-color;
+      text-decoration: none;
+    }
+  }
+}

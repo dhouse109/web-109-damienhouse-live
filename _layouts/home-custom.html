@@ -1,0 +1,63 @@
+---
+layout: single
+---
+ 
+  <h1 class="sr-only">Software Studies</h1>
+
+  {{ content }}
+  <!-- Introduction Section -->
+  <section class="intro-section">
+    <div class="intro-content">
+      <h2 id="introduction">Introduction</h2>
+      <p>This portfolio explores how research-driven engineering and <a href="https://en.wikipedia.org/wiki/Human-centered_design" target="_blank">Human-Centered Design</a> can lead to more thoughtful, effective software. Each project is rooted in curiosity and guided by methods like <a href="https://en.wikipedia.org/wiki/Design_science_(methodology)" target="_blank">Design Science Research</a> and the <a href="https://en.wikiversity.org/wiki/Thinking_Tools/Phoenix_Checklist" target="_blank">Phoenix Checklist</a> to solve real-world problems. Whether designing end-to-end systems, building with AI, or crafting developer tools, the goal is always the same: to create scalable, intelligent solutions that empower both users and engineers.</p>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <div class="categories-showcase">
+    {% for category_item in page.featured_categories %}
+      <section class="category-section">
+        <!-- Use id for TOC anchor links -->
+        <h2 class="category-title" id="{{ category_item.name | slugify }}">
+            {{ category_item.display_name | default: category_item.name }}
+        </h2>
+
+        <!-- Category Description -->
+        {% if category_item.description %}
+        <div class="category-description-intro-content">
+          <p>{{ category_item.description }}</p>
+        </div>
+        {% endif %}
+
+        <div class="archive__list">
+          {% assign category_posts = site.categories[category_item.name] | slice: 0, 3 %}
+          {% for post in category_posts %}
+            <article class="archive__item">
+              <h3 class="archive__item-title no_toc" itemprop="headline">
+                <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+              </h3>
+
+              {% if post.excerpt %}
+                <p class="archive__item-excerpt" itemprop="description">
+                  {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+                </p>
+              {% endif %}
+            <!--
+              <p class="archive__item-meta">
+                <time datetime="{{ post.date | date_to_xmlschema }}">
+                  {{ post.date | date: "%B %d, %Y" }}
+                </time>
+              </p>
+            -->
+            </article>
+          {% endfor %}
+        </div>
+
+      </section>
+    {% endfor %}
+  </div>
+
+  <!-- Original home layout features (if using) -->
+  {% if page.feature_row %}
+    {% include feature_row %}
+  {% endif %}

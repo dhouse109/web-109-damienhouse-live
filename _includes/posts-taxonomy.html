@@ -1,0 +1,77 @@
+{% assign items_max = 0 %}
+{% for item in include.taxonomies %}
+  {% if item[1].size > items_max %}
+    {% assign items_max = item[1].size %}
+  {% endif %}
+{% endfor %}
+
+<ul class="taxonomy__index">
+  {% for i in (1..items_max) reversed %}
+    {% for item in include.taxonomies %}
+      {% if item[1].size == i %}
+        {% comment %}
+          Fix: Use for loop to find matching category data
+        {% endcomment %}
+        {% assign category_key = item[0] | strip %}
+        {% assign display_name = "" %}
+        {% assign category_data = null %}
+
+        {% for category_pair in site.data.categories %}
+          {% if category_pair[0] == category_key %}
+            {% assign category_data = category_pair[1] %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        {% if category_data and category_data.display_name %}
+          {% assign display_name = category_data.display_name %}
+        {% else %}
+          {% assign display_name = category_key | replace: '-', ' ' %}
+        {% endif %}
+
+        <li>
+          <a href="#{{ category_key | slugify }}">
+            <strong>{{ display_name }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% for i in (1..items_max) reversed %}
+  {% for taxonomy in include.taxonomies %}
+    {% if taxonomy[1].size == i %}
+      {% comment %}
+        Fix: Use for loop for section headers too
+      {% endcomment %}
+      {% assign category_key = taxonomy[0] | strip %}
+      {% assign display_name = "" %}
+      {% assign category_data = null %}
+
+      {% for category_pair in site.data.categories %}
+        {% if category_pair[0] == category_key %}
+          {% assign category_data = category_pair[1] %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
+      {% if category_data and category_data.display_name %}
+        {% assign display_name = category_data.display_name %}
+      {% else %}
+        {% assign display_name = category_key | replace: '-', ' ' %}
+      {% endif %}
+
+      <section id="{{ category_key | slugify }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ display_name }}</h2>
+        <div class="entries-{{ entries_layout }}">
+          {% for post in taxonomy.last %}
+            {% include archive-single.html type=entries_layout %}
+          {% endfor %}
+        </div>
+        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+      </section>
+    {% endif %}
+  {% endfor %}
+{% endfor %}

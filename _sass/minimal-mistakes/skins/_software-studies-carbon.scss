@@ -1,0 +1,56 @@
+/* ==========================================================================
+   Software Studies Carbon skin
+   Dark editorial companion palette for damien.house
+   ========================================================================== */
+
+/* Typography */
+$serif: "Source Serif 4", Georgia, "Times New Roman", serif !default;
+$sans-serif: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif !default;
+$sans-serif-narrow: "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif !default;
+$monospace: "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace !default;
+
+$global-font-family: $serif !default;
+$header-font-family: "Space Grotesk", $sans-serif !default;
+$caption-font-family: "Space Grotesk", $sans-serif !default;
+
+/* Core palette */
+$background-color: #12110f !default;
+$body-color: #12110f !default;
+$text-color: #d0c6b8 !default;
+$muted-text-color: #9b9184 !default;
+
+$primary-color: #ca884b !default;
+$link-color: #b8a06f !default;
+$link-color-hover: lighten($link-color, 9%) !default;
+$link-color-visited: $link-color !default;
+
+$masthead-link-color: #aaa197 !default;
+$masthead-link-color-hover: #eee8dc !default;
+
+$border-color: #342d25 !default;
+$footer-background-color: #12110f !default;
+
+$navicon-link-color-hover: mix(#fff, $text-color, 20%) !default;
+
+/* Surfaces */
+$code-background-color: #1a1713 !default;
+$code-background-color-dark: #221d18 !default;
+$form-background-color: #1a1713 !default;
+
+/* Syntax colors */
+$base00: #1a1713 !default;
+$base01: #221d18 !default;
+$base02: #342d25 !default;
+$base03: #756b60 !default;
+$base04: #9b9184 !default;
+$base05: #d0c6b8 !default;
+$base06: #e0d7cb !default;
+$base07: #f3eee6 !default;
+$base08: #d08478 !default;
+$base09: #ca884b !default;
+$base0a: #b8a06f !default;
+$base0b: #9dad7f !default;
+$base0c: #8bb4ae !default;
+$base0d: #8fa7c7 !default;
+$base0e: #b69ac7 !default;
+$base0f: #b88a6e !default;

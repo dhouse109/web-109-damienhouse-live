@@ -1,0 +1,15 @@
+product-platform-architecture:
+  display_name: "Product & Platform Architecture"
+  description: "Notes and projects about designing, modernizing, and reasoning through software platforms. This includes Drupal, content systems, full-stack architecture, migrations, product foundations, and the decisions that make systems easier or harder to change over time."
+
+applied-ai-workflow-systems:
+  display_name: "Applied AI & Workflow Systems"
+  description: "Experiments and notes on applying AI inside real products, content systems, search, development workflows, and reviewable automation. The emphasis is practical: where AI helps, where it fails, and what needs to be in place for the work to stay understandable."
+
+developer-tooling-delivery-systems:
+  display_name: "Developer Tooling & Delivery Systems"
+  description: "Tools, environments, workflows, and delivery practices that help teams build and release software with less friction. This includes local development, CI/CD, documentation, code review, DevEx, deployment habits, and the small systems that make larger systems easier to maintain."
+
+rd-labs-learning-experiments:
+  display_name: "R&D, Labs & Learning Experiments"
+  description: "Lab notes, prototypes, technical spikes, learning projects, and unfinished ideas. This is where I put the exploratory work: the things I am testing, studying, or building to understand a problem before it becomes a polished project or service."

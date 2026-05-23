@@ -1,0 +1,58 @@
+{% seo %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchProject",
+  "name": "Software Studies",
+  "alternateName": "Damien House",
+  "url": "https://damien.house",
+  "logo": "https://damien.house/assets/images/walken-on-the-moon.gif",
+  "sameAs": [
+    "https://github.com/109studio",
+    "https://www.linkedin.com/company/109studio",
+    "https://www.youtube.com/@109studiotube"
+  ]
+}
+</script>
+
+<link rel="alternate" type="application/json" title="{{ site.title }} JSON Feed" href="{{ '/feed.json' | absolute_url }}" />
+<link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Space+Grotesk:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<style>
+.bi.bi-substack {
+  width: 20.63px;
+  text-align: center;
+  display: inline-block;
+}
+</style>
+{% if page.url == "/resource/" %}
+<style>
+/* Resource page: remove underlines on links and bullets for lists */
+.page__content a {
+  text-decoration: none;
+}
+.page__content a:hover,
+.page__content a:focus {
+  text-decoration: underline;
+}
+.page__content ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.page__content ul li {
+  margin-left: 0.75rem; /* keep a small indent for readability */
+}
+</style>
+{% endif %}
