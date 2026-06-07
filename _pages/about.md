@@ -89,6 +89,6 @@ More than 20 years across software engineering, Drupal architecture, platform mo
 
 <ul class="no-bullets">
     <li>
-        <a href="/assets/portfolio/resume.dhouse.v14.04.2026.pdf" target="_blank" rel="noopener noreferrer">Download current resume: 14.04.2026</a>
+        <a href="/assets/portfolio/resume.dhouse.v14.05.2026-applied-ai.pdf" target="_blank" rel="noopener noreferrer">Download current resume: v14.05.2026-applied-ai</a>
     </li>
 </ul>
