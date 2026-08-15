@@ -7,7 +7,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "book"
 toc_sticky: true
-last_modified_at: 2026-06-07
+last_modified_at: 2026-08-15
 ---
 
 <p>
@@ -17,7 +17,7 @@ I’m a technical leader and hands-on architect with an extensive background in 
 <h2 id="what-i-do">What I do</h2>
 
 <p>
-My core work is software architecture, platform development, technical leadership, and practical problem-solving. I’ve worked deeply with Drupal and web-based content systems, along with React, Node.js, PHP, Python, JavaScript/TypeScript, GraphQL, SQL, and infrastructure tools like AWS, Azure, Docker, and DDEV.
+My core work is software architecture, platform development, technical leadership, and practical problem-solving. I’ve worked deeply with Drupal and web-based content systems, along with React, Next.js, PHP, Python, JavaScript/TypeScript, GraphQL, SQL, and infrastructure tools like AWS, Azure, Docker, and DDEV.
 </p>
 
 <p>
@@ -87,8 +87,108 @@ More than 20 years across software engineering, Drupal architecture, platform mo
     </li>
 </ul>
 
-<ul class="no-bullets">
+<ul class="no-bullets-resume">
     <li>
-        <a href="/assets/portfolio/resume.dhouse.v14.05.2026-applied-ai.pdf" target="_blank" rel="noopener noreferrer">Download current resume: v14.05.2026-applied-ai</a>
+        <strong>Current resume</strong><br>
+        <a href="/assets/portfolio/resume.dhouse.v14.05.2026-applied-ai.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+            Applied AI / Technical Leadership
+        </a><br>
+        <small>v14 · May 2026</small>
     </li>
 </ul>
+
+<h3 id="resume-archive">Archive</h3>
+
+<p>
+Earlier versions of my resume are preserved here for historical reference.
+They reflect different stages of my career, the technologies I was working
+with at the time, and how my professional focus evolved. For current
+experience and positioning, please use the resume above.
+</p>
+
+<details class="resume-archive">
+    <summary>View previous resumes, 1998–2025</summary>
+
+    <ul class="no-bullets-resume">
+        <li>
+            <a href="/sites/default/files/resume.dhouse.v13.04.2025.pdf"
+               target="_blank" rel="noopener noreferrer">
+                2025 — v13.04
+            </a>
+        </li>
+        <li>
+            <a href="/sites/default/files/resume.dhouse.v12.01.2022.pdf"
+               target="_blank" rel="noopener noreferrer">
+                2022 — v12.01
+            </a>
+        </li>
+        <li>
+            <a href="/sites/default/files/resume.dhouse.v11.09.2021.pdf"
+               target="_blank" rel="noopener noreferrer">
+                2021 — v11.09
+            </a>
+        </li>
+        <li>
+            <a href="/sites/default/files/resume.dhouse.v10.15.2016.pdf"
+               target="_blank" rel="noopener noreferrer">
+                2016 — v10.15
+            </a>
+        </li>
+        <li>
+            <a href="/sites/default/files/resume.dhouse.v09.01.2013.pdf"
+               target="_blank" rel="noopener noreferrer">
+                2013 — v09.01
+            </a>
+        </li>
+        <li>
+            <a href="/sites/default/files/resume.dhouse.v08.01.2012.pdf"
+               target="_blank" rel="noopener noreferrer">
+                2012 — v08.01
+            </a>
+        </li>
+        <li>
+            <a href="/sites/default/files/resume.dhouse.v07.00.2007.pdf"
+               target="_blank" rel="noopener noreferrer">
+                2007 — v07.00
+            </a>
+        </li>
+        <li>
+            <a href="/sites/default/files/resume.dhouse.v06.00.2002.pdf"
+               target="_blank" rel="noopener noreferrer">
+                2002 — v06.00
+            </a>
+        </li>
+        <li>
+            <a href="/sites/default/files/resume.dhouse.v05.00.2002.pdf"
+               target="_blank" rel="noopener noreferrer">
+                2002 — v05.00
+            </a>
+        </li>
+        <li>
+            <a href="/sites/default/files/resume.dhouse.v04.00.2001.pdf"
+               target="_blank" rel="noopener noreferrer">
+                2001 — v04.00
+            </a>
+        </li>
+        <li>
+            <a href="/sites/default/files/resume.dhouse.v03.00.2000.pdf"
+               target="_blank" rel="noopener noreferrer">
+                2000 — v03.00
+            </a>
+        </li>
+        <li>
+            <a href="/sites/default/files/resume.dhouse.v02.00.1998.pdf"
+               target="_blank" rel="noopener noreferrer">
+                1998 — v02.00
+            </a>
+        </li>
+        <li>
+            <a href="/sites/default/files/resume.dhouse.v01.00.1998.pdf"
+               target="_blank" rel="noopener noreferrer">
+                1998 — v01.00
+            </a>
+        </li>
+    </ul>
+</details>
