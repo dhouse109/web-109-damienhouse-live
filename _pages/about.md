@@ -7,7 +7,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "book"
 toc_sticky: true
-last_modified_at: 2026-08-15
+last_modified_at: 2026-08-20
 ---
 
 <p>
@@ -80,7 +80,7 @@ More than 20 years across software engineering, Drupal architecture, platform mo
         <strong>Delivery systems and modernization:</strong> cloud migrations, CI/CD pipelines, Docker/DDEV workflows, deployment practices, documentation, and operational habits that help teams release with more confidence.
     </li>
     <li>
-        <strong>Technical leadership:</strong> senior guidance across architecture decisions, team practices, stakeholder communication, mentoring, and the translation of messy requirements into buildable plans.
+        <strong>Technical leadership:</strong> senior guidance across architecture decisions, team practices, stakeholder communication, mentoring, and turning requirements into roadmaps and plans.
     </li>
     <li>
         <strong>Applied AI and workflow systems:</strong> current work exploring how AI can support content operations, retrieval-backed systems, developer workflows, and human-in-the-loop automation without making the system harder to understand or maintain.
@@ -89,13 +89,26 @@ More than 20 years across software engineering, Drupal architecture, platform mo
 
 <ul class="no-bullets-resume">
     <li>
-        <strong>Current resume</strong><br>
-        <a href="/assets/portfolio/resume.dhouse.v14.05.2026-applied-ai.pdf"
-           target="_blank"
-           rel="noopener noreferrer">
-            Applied AI / Technical Leadership
-        </a><br>
-        <small>v14 · May 2026</small>
+        <strong>Current editions</strong><br>
+        <small>v14.06 · Aug 2026</small>
+        <ul class="resume-variants">
+            <li>
+                <a href="/assets/portfolio/resume.dhouse.v14.06.2026-lead-full-stack-engineer.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Lead Full-Stack Engineer
+                </a>
+            </li>
+            <!--
+            <li>
+                <a href="/assets/portfolio/resume.dhouse.v14.06.2026-developer-relations.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Developer Relations
+                </a>
+            </li>
+            -->
+        </ul>
     </li>
 </ul>
 
@@ -104,13 +117,12 @@ More than 20 years across software engineering, Drupal architecture, platform mo
 <p>
 Earlier versions of my resume are preserved here for historical reference.
 They reflect different stages of my career, the technologies I was working
-with at the time, and how my professional focus evolved. For current
-experience and positioning, please use the resume above.
+with at the time, and how my professional focus evolved. For current experience
+and positioning, please use one of the role-specific resumes above.
 </p>
 
 <details class="resume-archive">
     <summary>View previous resumes, 1998–2025</summary>
-
     <ul class="no-bullets-resume">
         <li>
             <a href="/sites/default/files/resume.dhouse.v13.04.2025.pdf"
