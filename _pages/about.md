@@ -31,7 +31,7 @@ I like rapid prototyping and deeper systems thinking because it gets ideas out o
 <h2 id="how-i-work">How I work</h2>
 
 <p>
-I stay close to engineering. Strategy matters, but becomes more useful when connected to code, architecture, delivery habits, and the people who have to maintain the system after the first version is released.
+I stay close to engineering. Strategy matters, but it becomes more useful when connected to code, architecture, delivery habits, and the people who have to maintain the system after the first version is released.
 </p>
 
 <p>
