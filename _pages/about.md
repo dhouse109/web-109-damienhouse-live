@@ -7,11 +7,11 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "book"
 toc_sticky: true
-last_modified_at: 2026-08-20
+last_modified_at: 2026-10-11
 ---
 
 <p>
-I’m a technical leader and hands-on architect with an extensive background in web platforms, content management systems, and full-stack software development. I’ve spent much of my career working in the space between architecture, delivery, and the day-to-day reality of building software with teams.
+I'm a technical leader and hands-on architect with an extensive background in web platforms, content management systems, and full-stack software development. I’ve spent much of my career working in the space between architecture, delivery, and the day-to-day reality of building software with teams.
 </p>
 
 <h2 id="what-i-do">What I do</h2>
@@ -21,7 +21,7 @@ My core work is software architecture, platform development, technical leadershi
 </p>
 
 <p>
-I’ve built and supported software across public safety, healthcare, benefits administration, asset management, public sector platforms, startups, and mission-driven organizations. The domains change, but the underlying work is often similar: understand the problem, make the system easier to reason about, and help the team move with more confidence.
+I’ve built and supported software across public safety, healthcare, benefits administration, public sector platforms, startups, and mission-driven organizations. The domains change, but the underlying work is common: understand the problem, make the system easier to reason about, and help the team move with more confidence.
 </p>
 
 <p>
@@ -31,7 +31,7 @@ I like rapid prototyping and deeper systems thinking because it gets ideas out o
 <h2 id="how-i-work">How I work</h2>
 
 <p>
-I try to stay close to engineering. Strategy matters, but it becomes more useful when it is connected to code, architecture, delivery habits, and the people who have to maintain the system after the first version is released.
+I stay close to engineering. Strategy matters, but becomes more useful when connected to code, architecture, delivery habits, and the people who have to maintain the system after the first version is released.
 </p>
 
 <p>
@@ -42,31 +42,37 @@ I’m comfortable moving between different levels of detail. Some days that mean
 I value calm communication, steady progress, and shared ownership. I believe good teams are built through trust, clear thinking, useful feedback, and a habit of improving the work.
 </p>
 
-<h2 id="ideas-i-return-to">Ideas I return to</h2>
+<h2 id="resume">Resume</h2>
 
 <p>
-These are a few ideas I come back to often. They show up in how I think about work, teams, software, and the long process of getting better at my craft.
+<small>v14.06 · Aug 2026</small>
 </p>
 
-<ul class="no-bullets-philosophy">
+<ul class="resume-variants">
     <li>
-        <i>Don’t worry, be happy. - Meher Baba</i>
+        <a href="/assets/portfolio/resume.dhouse.v14.06.2026-staff-ai-engineer.pdf"
+            target="_blank"
+            rel="noopener noreferrer">
+            Staff AI Engineer
+        </a>
     </li>
     <li>
-        <i>We are what we repeatedly do. Excellence, then, is not an act, but a habit. - Aristotle</i>
+        <a href="/assets/portfolio/resume.dhouse.v14.06.2026-lead-full-stack-engineer.pdf"
+            target="_blank"
+            rel="noopener noreferrer">
+            Lead Full-Stack Engineer
+        </a>
     </li>
+    <!--
     <li>
-        <i>Everything should be made as simple as possible, but no simpler. - Albert Einstein</i>
+        <a href="/assets/portfolio/resume.dhouse.v14.06.2026-developer-relations.pdf"
+            target="_blank"
+            rel="noopener noreferrer">
+            Developer Relations
+        </a>
     </li>
-    <li>
-        <i>It is not the answer that enlightens, but the question. - Eugene Ionesco</i>
-    </li>
-    <li>
-        <i>The future is already here, it’s just not very evenly distributed. - William Gibson</i>
-    </li>
+    -->
 </ul>
-
-<h2 id="resume">Resume</h2>
 
 <p>
 More than 20 years across software engineering, Drupal architecture, platform modernization, cloud migration, DevOps, accessibility, and technical leadership.
@@ -84,31 +90,6 @@ More than 20 years across software engineering, Drupal architecture, platform mo
     </li>
     <li>
         <strong>Applied AI and workflow systems:</strong> current work exploring how AI can support content operations, retrieval-backed systems, developer workflows, and human-in-the-loop automation without making the system harder to understand or maintain.
-    </li>
-</ul>
-
-<ul class="no-bullets-resume">
-    <li>
-        <strong>Current editions</strong><br>
-        <small>v14.06 · Aug 2026</small>
-        <ul class="resume-variants">
-            <li>
-                <a href="/assets/portfolio/resume.dhouse.v14.06.2026-lead-full-stack-engineer.pdf"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    Lead Full-Stack Engineer
-                </a>
-            </li>
-            <!--
-            <li>
-                <a href="/assets/portfolio/resume.dhouse.v14.06.2026-developer-relations.pdf"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    Developer Relations
-                </a>
-            </li>
-            -->
-        </ul>
     </li>
 </ul>
 
