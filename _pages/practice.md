@@ -1,91 +1,169 @@
 ---
-title: "Practice"
+title: "Software Studies — A Collaborative Framework for Product-Focused R&D"
 permalink: /practice/
 layout: single
 author_profile: true
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "book"
-last_modified_at: 2026-05-22
+toc_sticky: true
+last_modified_at: 2026-10-12
 ---
 
-## 109.studio
+*A peer-to-peer reflection on structuring inquiry, extending patterns of thought, and deepening the way we design and build software.*
 
-[109.studio](https://109.studio){: target="_blank" rel="noopener noreferrer"} is the name I’m using for my independent practice.
+This page outlines a practice I’ve used to reason about product design and engineering over the long arc of my career. It’s an invitation — a structure for leaders who already have a solid conceptual foundation and want to explore the edges of that thinking.
 
-It is where I’m bringing together the parts of my work that have usually lived in different places: software architecture, Drupal and web platform work, technical leadership, applied AI, prototyping, delivery systems, and the slower process of studying how software gets designed and built.
+The intent is simple: 
 
-For a long time, I did that work inside companies, agencies, and client teams. 109.studio gives it a clearer shape.
+*to offer a set of abstractions and artifacts that extend how we understand and communicate the work.*
 
-It is not meant to be a large agency or a generic consulting brand. At least for now, it is a principal-led practice. That means the work is built around my direct involvement: helping teams understand the problem in front of them, make better technical decisions, and move from idea to implementation with less confusion.
+---
 
-## Where it came from
+# A Shared Philosophy for Product-Focused Engineering  
 
-This page used to describe a framework I called **Software Studies**.
+Most engineering leaders have developed their own internal frameworks for navigating ambiguity, forming strategy, and shaping product direction. This practice builds on that shared intuition by making a few principles explicit:
 
-That framework came out of an older project I worked on between roughly 2006 and 2012. I was trying to make sense of how software connects design, engineering, media, information architecture, user experience, and systems thinking. A lot of the language was academic because I was trying to name things I had felt in practice for years.
+*1. Understanding is cumulative — and articulation accelerates it.*  
+Teams often sense the patterns long before they have language for them. Giving names to these patterns — through models, diagrams, ontologies, or classifications — sharpens collective intelligence and speeds alignment.
 
-The useful part of that work is still here.
+*2. Research and development are not a sequence, but a conversation.* 
+We move back and forth between exploration and construction constantly. Treating these as complementary spaces (rather than phases) makes room for deeper insight and better decisions.
 
-I still care about the space between research and development. I still care about artifacts, models, diagrams, vocabulary, prototypes, and the way teams create shared understanding before they build. I still think software is not just code, and not just interface, but a medium for organizing knowledge, behavior, and interaction.
+*3. Engineering and design are two perspectives on the same responsibility.* 
+Most leaders already operate this way, even if their org charts don’t acknowledge it. This practice simply formalizes the idea that architects, engineers, and designers shape experience, information, behavior, and structure together.
 
-What has changed is the center of gravity.
+*4. Artifacts are how teams think collectively.* 
+Whether diagrams, studies, models, or prototypes — artifacts create a shared field of view. They make reasoning visible. They give teams something to push against, refine, and extend.
 
-I do not need this page to present a full framework right now. I need it to explain the practice I am building.
+These principles likely echo your own experience; the practice just puts clearer structure around them.
 
-## What the practice is for
+---
 
-109.studio is focused on the kinds of technical work where architecture, judgment, and implementation need to stay connected.
+# A Model for Reasoning About Software 
 
-That includes:
+*Software as Knowledge Media*
 
-- shaping early product ideas into something buildable,
-- reviewing platforms before a larger investment,
-- modernizing Drupal and content-heavy systems,
-- applying AI inside real workflows instead of treating it like a novelty,
-- improving delivery systems, documentation, and developer experience,
-- helping founders and teams make technical decisions they can actually live with.
+This framework treats software as the fusion of knowledge and medium — a way of organizing what users want to accomplish into a structured, interactive form.
 
-Some of that work looks like advisory. Some of it looks like architecture. Some of it looks like hands-on engineering. In practice, those things are usually connected.
+It organizes our thinking into four lenses:
 
-The pattern I keep seeing is that teams rarely need only “strategy” or only “implementation.” They need someone who can help clarify the shape of the problem, understand the technical constraints, make a plan, and stay close enough to the build to notice when the plan needs to change.
+*1. Agent*
 
-That is the space 109.studio is meant to occupy.
+User goals, processes, constraints: the origin point for every meaningful product decision.
 
-## How it connects to this site
+*2. Experience (Scope & Strategy)*
 
-I think of **damien.house** and **109.studio** as related, but different.
+How we define the purpose of a system and the plan to achieve it.  Not UX in the narrow sense, but *contextual reasoning*.
 
-This site is the personal side. It is where I can write more openly about what I am learning, what I am testing, what I have built, and how my thinking is changing. It can hold rougher notes, older projects, book lists, experiments, and reflections that would feel too personal or too unfinished on a business site.
+*3. Form (Media)*
 
-109.studio is the practice side. It is where the work is framed for people who may need help with a product, platform, technical decision, or applied AI problem. The language there should be clearer, more practical, and easier for a founder, agency partner, or technical leader to act on.
+How the system is perceived and navigated:
+- *Skeleton:* information architecture, interaction framework  
+- *Surface:* interface, aesthetics, sensory design  
 
-The two sites should support each other.
+*4. Function (Software)*
 
-This site explains how I think -- 109.studio explains how that thinking turns into work.
+How the system behaves internally:
+- *Structure:* data models, relationships, information logic  
+- *System:* workflows, logic, operational behavior  
 
-## What I am building toward
+As leaders, we work across all four — often implicitly. The model gives us a formal vocabulary for the thinking we already do.
 
-I am using 109.studio to make a few things more explicit:
+---
 
-- the kinds of problems I am best suited to help with,
-- the kinds of engagements that make sense as a solo principal,
-- the artifacts and examples that show how I work,
-- the difference between experiments, services, case studies, and finished client work,
-- the role applied AI can play when it is tied to real systems and reviewed by humans.
+# A Dual-Track R&D Practice  
 
-Some of this is still taking shape. I am comfortable with that.
+This practice intentionally separates the mental space of *understanding* from the mental space of *building*, because each demands different cognitive modes.
 
-A practice is not only a service menu. It is also a way of paying attention. It changes as the work changes. The point is to make the work more visible, more intentional, and more useful to the people who might need it.
+But the purpose isn’t separation — it’s *elasticity*.  
+To let teams move fluidly between inquiry and application with a common structure.
 
-## Start with 109.studio
+---
 
-If you are trying to understand the professional version of this work, start here:
+## *Track 1 — Research (Exploration & Sensemaking)*  
 
-[Visit 109.studio](https://109.studio){: target="_blank" rel="noopener noreferrer"}
+A space for expanding the problem, gathering evidence, and forming the language that guides development.
 
-That site explains the current services, starting points, and areas of focus. This site will continue to hold the longer-running notes behind the practice: the experiments, reflections, reading, and working ideas that help shape what comes next.
+Activities:
+- Survey and select topics  
+- Pose study questions  
+- Form research statements  
+- Investigate and analyze  
+- Synthesize insights  
+- Critique with structured evaluation  
 
-## Footnote
+Artifacts:
+- Studies and research briefs  
+- Conceptual models  
+- Vocabulary maps (ontologies, taxonomies)  
+- Information architecture sketches  
+- Aggregated notes and curated resources  
 
-Earlier versions of this page focused on **Software Studies**, an older framework for thinking about software as a mix of design, engineering, information, interaction, and knowledge media. I still expect those ideas to show up on this site over time, but this page now serves a simpler purpose: explaining why 109.studio exists and how it connects to the work I have been doing for years.
+Research produces clarity — but more importantly, it produces *language*.  
+Language becomes the substrate for strategy.
+
+---
+
+## *Track 2 — Development (Design & Construction)*  
+
+A space for applying what was learned and shaping it into form and function.
+
+Activities:
+- Define objectives, constraints, and strategic direction  
+- Model data and structure  
+- Design workflows, interactions, and information patterns  
+- Build prototypes and architectural drafts  
+- Assemble systems and components  
+- Evaluate and refine  
+
+Artifacts:
+- Requirements, briefs, and problem definitions  
+- Data models and classifications  
+- Interaction and IA models  
+- Wireframes, prototypes, workflows  
+- Architecture diagrams  
+- Code, utilities, services  
+- Evaluation summaries  
+
+Development turns shared understanding into something tangible, critique-able, and extendable.
+
+---
+
+# Language as an Instrument of Invention  
+
+One idea worth foregrounding — because engineers feel it more than they discuss it — is how much of our work involves *creating language*.
+
+Not for abstraction’s sake, but because building new systems often requires new conceptual boundaries:
+
+- differentiating concepts that didn’t need differentiating before,  
+- naming patterns that were previously unnamed,  
+- reframing behaviors in ways that make them designable,  
+- constructing ontologies that reveal structure,  
+- forming taxonomies that clarify the domain.
+
+When we expand vocabulary, we expand what the team is capable of perceiving and building.
+
+A robust R&D practice doesn’t just produce systems.  
+It produces the *language* that makes systems possible.
+
+For many practitioners — especially seasoned engineers — this is the most meaningful part of the work. It engages curiosity, fosters insight, and restores a sense of creative ownership that is often lost in purely execution-driven environments.
+
+---
+
+# A Practice Meant to Be Expanded  
+
+This framework shapes how I approach architecture, product reasoning, and engineering leadership:
+
+- clarifying ambiguous problem spaces,  
+- aligning collaborators through structured artifacts,  
+- and extending the conceptual tools we use to make decisions.
+
+It’s not meant to be prescriptive. It’s meant to be *extendable* — something we can refine together as peers who have seen similar challenges from different angles.
+
+If it adds language or structure that complements how you already think, then it has served its purpose.
+
+---
+
+# *Footnote*  
+This page was produced with assistance from ChatGPT.  

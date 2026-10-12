@@ -7,12 +7,12 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "book"
 toc_sticky: true
-last_modified_at: 2026-05-22
+last_modified_at: 2026-10-12
 ---
 
 A curated list of books and papers that have shaped, informed, or inspired the development of Software Studies.
 
-Grouped by the type of guidance they provided and sorted alphabetically within each group.
+Grouped by the guidance they provided.
 
 ## Direction
 
