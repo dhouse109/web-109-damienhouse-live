@@ -23,4 +23,16 @@
 </div>
 {% endif %}
 
-<div class="page__footer-copyright">&copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="https://dhouse109.info">dhouse109</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">
+  
+  &copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="https://109.studio">109.studio</a>. 
+  
+  {% assign fb_title = page.title | default: site.title | prepend: "Feedback: " | url_encode %}
+  {% assign fb_url = page.url | absolute_url | url_encode %}
+  <a href="https://github.com/dhouse109/web-109-damienhouse-live/issues/new?template=feedback.yml&labels=feedback&title={{ fb_title }}&page-url={{ fb_url }}" rel="noopener" target="_blank">Submit feedback on GitHub</a>.
+
+  {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>
+  &amp;
+  <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.
+
+</div>

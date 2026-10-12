@@ -1,0 +1,20 @@
+name: Site feedback
+description: Tell me what's broken, confusing, or useful
+labels: ["feedback"]
+body:
+  - type: input
+    id: page-url
+    attributes:
+      label: Page
+      description: Prefilled from the link you clicked
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [Bug / broken link, Content correction, Suggestion, Nice job]
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true
