@@ -417,13 +417,15 @@ a {
 
 // TOC adjustments
 .layout--home-custom {
-    // Make the first visible heading sit where .page__title sits on other pages
+  // Homepage title: sits where .page__title sits on other pages;
+  // the TOC is rendered after it by home-custom.html
+  .home__title {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
   .intro-section {
     padding-top: 0;
-
-    > .intro-content > h2:first-child {
-      margin-top: 0;
-    }
   }
   
   .sidebar__right {

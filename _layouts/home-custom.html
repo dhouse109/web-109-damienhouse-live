@@ -1,15 +1,17 @@
 ---
 layout: single
 ---
- 
+
   <!-- <h1 class="sr-only">Software Studies</h1> -->
 
-  {{ content }}
-  
+  {%- capture intro_heading -%}
+  <h1 id="introduction" class="home__title">Introduction</h1>
+  {%- endcapture -%}
+
+  {%- capture home_body -%}
   <!-- Introduction Section -->
   <section class="intro-section">
     <div class="intro-content">
-      <h1 id="introduction">Introduction</h1>
       <p>This portfolio explores how research-driven engineering and <a href="https://en.wikipedia.org/wiki/Human-centered_design" target="_blank">Human-Centered Design</a> can lead to more thoughtful, effective software. Each project is rooted in curiosity and guided by methods like <a href="https://en.wikipedia.org/wiki/Design_science_(methodology)" target="_blank">Design Science Research</a> and the <a href="https://en.wikiversity.org/wiki/Thinking_Tools/Phoenix_Checklist" target="_blank">Phoenix Checklist</a> to solve real-world problems. Whether designing end-to-end systems, building with AI, or crafting developer tools, the goal is always the same: to create scalable, intelligent solutions that empower both users and engineers.</p>
     </div>
   </section>
@@ -62,3 +64,19 @@ layout: single
   {% if page.feature_row %}
     {% include feature_row %}
   {% endif %}
+  {%- endcapture -%}
+
+  {{ intro_heading }}
+
+  {% if page.home_toc %}
+    {% assign toc_source = intro_heading | append: home_body %}
+    <aside class="sidebar__right{% if page.toc_sticky %} sticky{% endif %}">
+      <nav class="toc" aria-label="Table of contents">
+        <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: "On this page" }}</h4></header>
+        {% include toc.html sanitize=true html=toc_source h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
+      </nav>
+    </aside>
+  {% endif %}
+
+  {{ content }}
+  {{ home_body }}
