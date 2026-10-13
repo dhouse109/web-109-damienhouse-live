@@ -1,7 +1,7 @@
 ---
 layout: single
 ---
-
+ 
   <!-- <h1 class="sr-only">Software Studies</h1> -->
 
   {%- capture intro_heading -%}
@@ -69,11 +69,10 @@ layout: single
   {{ intro_heading }}
 
   {% if page.home_toc %}
-    {% assign toc_source = intro_heading | append: home_body %}
     <aside class="sidebar__right{% if page.toc_sticky %} sticky{% endif %}">
       <nav class="toc" aria-label="Table of contents">
         <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: "On this page" }}</h4></header>
-        {% include toc.html sanitize=true html=toc_source h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
+        {% include toc.html sanitize=true html=home_body h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
       </nav>
     </aside>
   {% endif %}
